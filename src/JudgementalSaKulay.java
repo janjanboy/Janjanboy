@@ -18,7 +18,7 @@ public class JudgementalSaKulay {
         boolean b = Maitim == color;
 
 
-            //TODO FIX OUTPUT, use boolean expression
+
             System.out.println("\nMaputi ba? " + w);
 
             //TODO FIX OUTPUT, use boolean expression
