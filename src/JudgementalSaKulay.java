@@ -1,4 +1,4 @@
-package data.sample04.booleanexercise;
+
 
 import java.util.Scanner;
 
@@ -15,10 +15,10 @@ public class JudgementalSaKulay {
 
         boolean w = MAPUTI == color;
         boolean y = MORENO == color;
-        boolean b = Maitim == color;
+        boolean b = color!=MAPUTI && color!=MORENO;
 
 
-
+            //TODO FIX OUTPUT, use boolean expression
             System.out.println("\nMaputi ba? " + w);
 
             //TODO FIX OUTPUT, use boolean expression
@@ -29,30 +29,30 @@ public class JudgementalSaKulay {
             System.out.println("Maitim ba? " + b);
 
 
-        /**
-         * Expectations
-         * 1. Kapag 'w'
-         * What is the color of your skin? w = White, y = Yellow, b = Brown : w
-         *
-         * Maputi ba? true
-         * Moreno ba? false
-         * Maitim ba? false
-         *
-         *
-         * 2. Kapag 'y'
-         * What is the color of your skin? w = White, y = Yellow, b = Brown : w
-         *
-         * Maputi ba? false
-         * Moreno ba? true
-         * Maitim ba? false
-         *
-         *
-         * 3. Kapag 'b' or iba pa
-         * What is the color of your skin? w = White, y = Yellow, b = Brown : w
-         *
-         * Maputi ba? false
-         * Moreno ba? false
-         * Maitim ba? true
+        /*
+          Expectations
+          1. Kapag 'w'
+          What is the color of your skin? w = White, y = Yellow, b = Brown : w
+
+          Maputi ba? true
+          Moreno ba? false
+          Maitim ba? false
+
+
+          2. Kapag 'y'
+          What is the color of your skin? w = White, y = Yellow, b = Brown : w
+
+          Maputi ba? false
+          Moreno ba? true
+          Maitim ba? false
+
+
+          3. Kapag 'b' or iba pa
+          What is the color of your skin? w = White, y = Yellow, b = Brown : w
+
+          Maputi ba? false
+          Moreno ba? false
+          Maitim ba? true
          */
     }
 }
