@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
 class FirstExercise1 {
+    public static void main (String[] args) {
 
-    public static void main(String[] args) {
-        System.out.println("hello");
-
+        int age = 20;
+        String ageGroup = "";
+        ageGroup = age < 13 ? " matanda " : ageGroup;
+        ageGroup = age < 19 ? "teenager" : "matanda";
     }
+
 }
