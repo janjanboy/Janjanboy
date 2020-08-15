@@ -17,10 +17,8 @@ Scanner input=new Scanner(System.in);
         seconds=input.nextInt();
         clock.setseconds(seconds);
 
-            Object toString=clock;
-        //System.out.println(MyTime.toString(hour,minutes,seconds));
-            System.out.println("The Time is: "+ clock.gethour()+":"+
-                    clock.getminutes()+":"+clock.getseconds());
+            //Object toString=clock;
+            System.out.println(clock.toString());
 
 
     }
