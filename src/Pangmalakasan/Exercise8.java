@@ -14,8 +14,8 @@ final int numero=input.nextInt();
         System.out.println(random);
 
         String number="Your guess is correct";
-        number=(random>numero)?"Your guess is Higher":number;
-        number=(random <numero)?"Your guess is Lower":number;
+        number=(random<numero)?"Your guess is Higher":number;
+        number=(random >numero)?"Your guess is Lower":number;
         //String number = (random == numero) ?" Your guess is correct ":
                 //((random > numero) ? "Your guess is Lower" : "Your guess is Higher");
 
