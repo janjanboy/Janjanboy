@@ -5,7 +5,7 @@ public class Exercise8 {
         Scanner input=new Scanner(System.in);
 // define the range
         final int min = 1;
-        final int max =3;
+        final int max=3;
 final int numero=input.nextInt();
         // generate random numbers within 1 to 100
         int random = (int) (Math.random() * max) + min;

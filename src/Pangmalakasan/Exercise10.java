@@ -1,8 +1,8 @@
 package Pangmalakasan;
 
 public class Exercise10 {
-    private double radius;
-    private double circumference;
+   private double radius;
+  private double circumference;
     private double diameter;
 
 public double getRadius(){

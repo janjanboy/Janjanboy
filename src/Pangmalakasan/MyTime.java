@@ -2,48 +2,62 @@ package Pangmalakasan;
 
 public class MyTime {
 
-    private static int hour = (int) (Math.random() * 23) + 1;
-    private static int minutes = (int) (Math.random() * 59) + 1;
-    private static int seconds = (int) (Math.random() * 59) + 1;
+    private static int[] hour= new int[]{0, 1, 2, 3, 4, 5, 6,7,8,9,10,11,12};
+    private static int[] minutes=new int[]{0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+            21,22,23,24,25,26,27,28,29,30,
+            31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59};
+    private static int[] seconds=new int [] {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,
+            21,22,23,24,25,26,27,28,29,30,
+            31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59};
 
-    public static int gethour() {
+    int hawar=hour.length;
+    int menits=minutes.length;
+    int sakonds=seconds.length;
 
-        return hour;
-    }
+    int hawar1=(int)(Math.random()*hawar);
+    int menits1=(int)(Math.random()*sakonds);
+    int sakonds1=(int)(Math.random()*sakonds);
 
-    public static int getminutes() {
 
-        return minutes;
-    }
+    //public static int[] gethour() {
 
-    public static int getseconds() {
+        //return hour;
+    //}
 
-        return seconds;
-    }
+   // public static int[] getminutes() {
 
-    public void sethour(int hour1) {
+       // return minutes;
+   // }
 
-        hour = hour1;
+   // public static int[] getseconds() {
 
-    }
+      //  return seconds;
+   // }
 
-    public void setminutes(int minutes1) {
+  //  public void sethour(int[] hour1) {
+    //    int hawar1=(int)(Math.random()*hawar);
+     // hour = hour1;
 
-        minutes = minutes1;
+    //}
 
-    }
+   //public void setminutes(int[] minutes1) {
+    //    int menits1=(int)(Math.random()*sakonds);
+     // minutes = minutes1;
 
-    public void setseconds(int seconds1) {
+    //}
 
-        seconds = seconds1;
+    //public void setseconds(int[] seconds1) {
+     //   int sakonds1=(int)(Math.random()*sakonds);
 
-    }
+        //seconds = seconds1;
+
+    //}
 public String toString(){
-    String oras=hour<10?("0"+hour):String.valueOf(hour);
-    String minuto=minutes<10?("0"+minutes):String.valueOf(minutes);
-    String segundo=seconds<10?("0"+seconds):String.valueOf(seconds);
-
-    return "This is the time: "+ oras+":"+minuto+":"+segundo;
+    String oras=hawar1<10?("0"+ hawar1):String.valueOf(hawar1);
+    String minuto=menits1<10?("0"+ menits1):String.valueOf(menits1);
+    String segundo=sakonds1<10?("0"+ sakonds1):String.valueOf(sakonds1);
+    String all=oras+":"+minuto+":"+segundo;
+    return String.valueOf (all);
 
 }
 }
