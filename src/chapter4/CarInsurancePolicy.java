@@ -18,8 +18,8 @@ public class CarInsurancePolicy {
 
     }
 
-    public CarInsurancePolicy(int num) {
-        policyNumber = num;
+    public CarInsurancePolicy() {
+        policyNumber = 123;
         numPayments = 2;
         residentCity = "May Field";
 

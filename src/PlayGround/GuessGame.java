@@ -40,7 +40,7 @@ public class GuessGame { // 3 Instance Variables for 3 Player Objects
             if (guessp1 == targetNumber) {         //check each player’s guess to see if it matches
                 p1isRight = true;                //     the target number. If a player is right,
             }                                    //      then set that player’s variable to be true
-            //      (remember, we set it false by default)
+                                                 //      (remember, we set it false by default)
             if (guessp2 == targetNumber) {
                 p2isRight = true;
             }

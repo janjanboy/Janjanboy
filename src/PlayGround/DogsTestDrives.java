@@ -36,5 +36,16 @@ public class DogsTestDrives {
         dog4.size= " Pure Muscles ";
         System.out.println("Name:"+dog4.name+"\n"+"Age:"+dog4.age+"\n"+"Size:"+dog4.size);
         dog4.bark4();
+
+        dog1.name="Bornok";
+        dog1.age=9999;
+        dog1.size="Invinsible";
+        System.out.println("Name: "+dog1.name+"\n"+"Age: "+dog1.age+"\n"+"Size: "+dog1.size);
+        dog1.ult();
+
+        int[] nums;
+        nums = new int[]{3,21,312,312,23,3};
+        int numbers = nums.length;
+        System.out.println(numbers);
     }
 }

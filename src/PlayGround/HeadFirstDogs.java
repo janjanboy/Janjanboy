@@ -4,6 +4,7 @@ public class HeadFirstDogs {
     String name;               // Instance Variables
     String size;              // Instance Variables
     int age;                  // Instance Variables
+
     void bark(){ //Bark Method
         System.out.println("Dog Bark:"+ "GRRRRRR \n");
     }
@@ -14,6 +15,9 @@ public class HeadFirstDogs {
         System.out.println("Dog Bark:"+" GRRrr aww aww \n ");
     }
     void bark4(){
-        System.out.println("Dog Bark:"+" Aww aww awww awww awww ");
+        System.out.println("Dog Bark:"+" Aww aww awww awww awww \n ");
+    }
+    void ult(){
+        System.out.println("Dog Bark: "+" rawr ");
     }
 }

@@ -9,7 +9,7 @@ private double area;
 
 
     public Circle() {
-        this.radius=radius=1;
+        this.radius=radius=3;
         diameter=radius*2;
         area= (double) (Math.PI*(radius*radius));
     }
@@ -22,8 +22,8 @@ private double area;
 
     public String setRadius() {
         this.radius=radius;
-        diameter=radius*2;
-        area= (double) (Math.PI*(radius*radius));
+      //  diameter=radius*2;
+       // area= (double) (Math.PI*(radius*radius));
         String answer=" Radius is "+radius+" \n Diameter is "+diameter+" \n Area is "+area;
         return String.valueOf(answer);
     }
