@@ -24,20 +24,17 @@ public class RockPaperScissors {
         int guess2 = input.nextInt();
 
         System.out.println("\n");
-        if (guess1 == rock && guess2 == paper) {
+
+        if ((guess1 == rock && guess2 == paper) || (guess1 == scissors && guess2 == rock)
+                || (guess1 == paper && guess2 == scissors) ) {
 
             System.out.println(player2 + " wins");
-        } else if (guess1 == paper && guess2 == scissors) {
-            System.out.println(player2 + " wins");
-        } else if (guess1 == scissors && guess2 == rock) {
-            System.out.println(player2 + " wins");
-        } else if (guess1 == rock && guess2 == scissors) {
+
+        } else if ((guess1 == rock && guess2 == scissors) || (guess1 == paper && guess2 == rock)
+                || (guess1 == scissors && guess2 == paper) ) {
+
             System.out.println(player1 + " wins ");
 
-        } else if (guess1 == paper && guess2 == rock) {
-            System.out.println(player1 + " wins");
-        } else if (guess1 == scissors && guess2 == paper) {
-            System.out.println(player1 + " wins");
         } else {
             System.out.println("Its a tie ");
         }
