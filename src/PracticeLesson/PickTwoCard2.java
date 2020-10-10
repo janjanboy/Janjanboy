@@ -14,7 +14,7 @@ public class PickTwoCard2 {
         int max = 13;
         int rank01= (int) (Math.random() * max) + min;
 
-        System.out.print("Please enter the suite of the first card ");
+        System.out.print("Please enter the suit of the first card ");
         Card2 card=new Card2(word,rank01);
 
 
@@ -27,7 +27,7 @@ public class PickTwoCard2 {
         int random1=(int)(Math.random()*suitlenght1);
         char words=suit01[random1];
 
-        System.out.print("Please enter the suite of the second card ");
+        System.out.print("Please enter the suit of the second card ");
         Card2 card1=new Card2(words,rank02);
 
 
