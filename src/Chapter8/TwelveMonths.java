@@ -5,6 +5,7 @@ public class TwelveMonths {
         String[] month = {"January","February", "March", "April",
                 "May", "June", "July", "August", "September", "October", "November", "December"};
         int monthsInYear = 0;
+
         while (monthsInYear < month.length) {
             System.out.println(month[monthsInYear]);
             monthsInYear++;

@@ -5,6 +5,7 @@ public class PickANumber {
         Scanner input=new Scanner(System.in);
         int number1=input.nextInt();
         int number=0;
+
         while(number != number1){
             System.out.println(number);
             number++;
