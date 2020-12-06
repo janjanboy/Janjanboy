@@ -7,7 +7,8 @@ public class Exercise4 {
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
 
-        String numero = number % 2 == 0 ? number + " is an even number" : number + " is an odd number";
+        String numero = number % 2 == 0 ? number +
+                " is an even number" : number + " is an odd number";
         System.out.println(numero);
     }
 }
